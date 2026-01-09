@@ -31,12 +31,56 @@
 #header .navigation .btn-text {
     padding: 12.5px 16px;
 }
+#banner .banner-body {
+width: 1600px;
+height: 675px;
+align-items: top center;
+gap: 40px;
+}
+
+#banner .banner-heading {
+    width: 770px;
+height: 168px;
+font-family: Inter;
+font-style: Bold;
+font-size: 36px;
+font-weight: 700;
+line-height: 84px;
+letter-spacing: 0%;
+text-align:top center;
+
+text-transform: capitalize;
+opacity: 0.9;
+
+  width: 770px;
+  white-space: normal;
+  word-break: break-word;
+
+}
+#banner .banner-heading .change-color {
+    color: #30B868;
+}
+
+#banner .banner-heading h1 {
+    color: white;
+
+}
+
+#banner .banner-body p {
+font-style: Regular;
+font-size: 28px;
+font-weight: 200;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+
+}
 .access {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-
-  padding: 6px 14px 6px 6px;
+padding: 8px 12px;
   background: #ffffff;
 
   border-radius: 999px;
@@ -45,7 +89,28 @@
   color: #2e7d32;
   font-size: 16px;
   font-weight: medium;
+ 
 }
+
+.banner-body .banner-heading {
+font-family: Inter;
+font-style: Bold;
+font-size: 72px;
+font-weight: 700;
+line-height: 84px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+width: 770px;
+height: 168px;
+ 
+opacity: 0.9;
+
+
+}
+
+
 .icon {
   width: 18px;
   height: 18px;
@@ -103,19 +168,71 @@ padding-bottom: 100px;
 
 }
 .button-with-img {
-    width: 464px;
-    height: 52px;
-   background-color: #2e7d32;
-    /* corner-radius: 6px; */
-    /* border-radius: 6px; */
-    display: flex;
-    justify-content: space-around;
-    padding-top: 32px;
-    align-items: center;
+width: 465px;
+height: 52px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+font-size: 18px;
+font-size: 16;
+font-weight: 600px;
+background-color: #4caf50;
+
 }
 
-..button-with-img button {
+.button-with-img button {
     background-color: none;
-    border: none;
+    padding: 12.5px 16px;
 }
 
+
+
+
+
+#nodes {
+width: 1600px;
+height: 448px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 44;
+padding: 120px;
+
+}
+#nodes .fail-nodes {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+
+}
+#nodes .bad-paragraph {
+font-size: 16px;
+font-weight: regular;
+color:#627382;
+padding-bottom: 44px;
+}
+ 
+#nodes .Structure-card {
+display: flex;
+/* border: 1px solid red; */
+gap: 16PX;
+
+}
+
+#nodes .Structure-card .card-all {
+    border: 1px solid yellow;
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    gap: 16px;
+
+}
+#nodes .Structure-card .card-all h3 {
+    font-size: 24px;
+    font-weight: 600px;
+    align-items: center;
+    justify-content: center;
+}
