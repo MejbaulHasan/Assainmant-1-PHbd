@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+}
+#header .navigation {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#header .navigation ul {
+     list-style: none;
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: medium;
+}
+#header .navigation .image {
+    padding-top: 16px;
+    width: 139px;
+    height: 60px;
+}
+#header .navigation button {
+    width: 164px;
+    height: 44px;
+    background-color: #469165;
+    /* corner-radius: 6px; */
+    border-radius: 6px;
+}
+#header .navigation .btn-text {
+    padding: 12.5px 16px;
+}
+.access {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 6px 14px 6px 6px;
+  background: #ffffff;
+
+  border-radius: 999px;
+  border: 1px solid #c8e6c9;
+
+  color: #2e7d32;
+  font-size: 16px;
+  font-weight: medium;
+}
+.icon {
+  width: 18px;
+  height: 18px;
+  background: #e8f5e9;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #4caf50;
+  border-radius: 50%;
+}
+.text {font-size: 16px ;
+    
+}
+#banner {
+    width: 1600px;
+    height: 675px;
+    background:url(resourse/assets/hero-bg.png);
+    align-items: center;
+}
+#banner .banner-body {
+    width: 1360px;
+    height: 379px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 115px 120px 180px 120px;
+}
+
+#banner .text {
+       font-family: Inter;
+font-style: bold;
+font-size: 74px;
+font-weight: 700;
+line-height: 84px;
+letter-spacing: 0%;
+text-align: center;
+}
+.access p {
+    color: rgba(255, 255, 255, 1);
+font-style: Regular;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+padding-top:  106px;
+padding-bottom: 100px;
+
+}
+.button-with-img {
+    width: 464px;
+    height: 52px;
+   background-color: #2e7d32;
+    /* corner-radius: 6px; */
+    /* border-radius: 6px; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+    align-items: center;
+}
+
+..button-with-img button {
+    background-color: none;
+    border: none;
+}
+
