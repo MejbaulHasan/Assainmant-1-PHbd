@@ -229,10 +229,15 @@ gap: 16PX;
     padding: 24px;
     gap: 16px;
 
+
 }
 #nodes .Structure-card .card-all h3 {
     font-size: 24px;
     font-weight: 600px;
     align-items: center;
     justify-content: center;
+}
+.card-all img {
+    width: 60px;
+    height: 60px;
 }
