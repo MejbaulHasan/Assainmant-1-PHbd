@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 1600px;
+    /* max-width: 1600px; */
 }
 #header .navigation {
     display: flex;
@@ -33,7 +33,7 @@
     padding: 12.5px 16px;
 }
 #banner .banner-body {
-width: 1600px;
+/* width: 1600px; */
 height: 675px;
 align-items: top center;
 gap: 40px;
@@ -53,7 +53,7 @@ text-align:top center;
 text-transform: capitalize;
 opacity: 0.9;
 
-  width: 770px;
+  /* width: 770px; */
   white-space: normal;
   word-break: break-word;
 
@@ -173,7 +173,7 @@ opacity: 0.9;
     
 }
 #banner {
-    width: 1600px;
+    /* width: 1600px; */
     height: 675px;
     background:url(resourse/assets/hero-bg.png);
     align-items: center;
@@ -234,7 +234,7 @@ background-color: #4caf50;
 
 
 #nodes {
-width: 1600px;
+/* width: 1600px; */
 height: 448px;
 display: flex;
 flex-direction: column;
@@ -317,7 +317,7 @@ align-items: flex-start; */
 
 
 #brain {
-    width: 1600px;
+    /* width: 1600px; */
     height: 840px;
 
 }
@@ -488,7 +488,7 @@ padding-top: 16px;
 
  #footer-section {
 
-width: 1600px;
+/* width: 1600px; */
 height: 370px;
 background-color: #001931;
  }
@@ -528,4 +528,8 @@ color: #FFFFFF;
     margin: 0 auto;
     display: flex;
     /* padding-bottom: 20px; */
+ }
+
+ .brain-pic-inline {
+    display: flex;
  }
