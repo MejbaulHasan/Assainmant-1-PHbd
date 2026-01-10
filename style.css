@@ -80,6 +80,42 @@ color: #FFFFFF;
 #banner {
     margin: 0 auto;
 }
+
+#button-with-img {
+    width: 465px;
+    height: 52px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#button-with-img button {
+    width: 251px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+}
+#button-with-img img {
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+}
+#button-with-img .buttton-one {
+    background-color: #469165;
+}
+#button-with-img .button-last {
+    background-color: #85b1de;
+}
+
+
+
+
+
+
+
 .access {
   display: inline-flex;
   align-items: center;
